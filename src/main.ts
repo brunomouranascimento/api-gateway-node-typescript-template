@@ -39,7 +39,7 @@ import { serverConfig } from './config/server.config';
       app.use(`/${service}`, httpProxy(url, { timeout: 3000 }));
     });
 
-    app.listen(config.port, () => {
+    app.listen(process.env.PORT || config.port, () => {
       console.log(
         `✅ - ${name} is running on host ${host} on port ${config.port}`,
       );
