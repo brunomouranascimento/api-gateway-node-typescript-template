@@ -1,0 +1,22 @@
+{
+  "name": "API Gateway",
+  "host": "http://localhost",
+  "config": {
+    "port": 3333,
+    "morgan": true
+  },
+  "security": {
+    "JSON": true,
+    "helmet": true
+  },
+  "services": [
+    {
+      "nameRoute": "users",
+      "url": "http://localhost:3001"
+    },
+    {
+      "nameRoute": "products",
+      "url": "http://localhost:3002"
+    }
+  ]
+}
