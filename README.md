@@ -3,8 +3,6 @@
 [![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-5-1]
 [![Node.js version][nodejs-badge]][nodejs]
-[![APLv2][license-badge]][license]
-[![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
 👩🏻‍💻 Developer Ready: A comprehensive template. Works out of the box for most [Node.js][nodejs] projects.
 
@@ -22,7 +20,6 @@
 - Example configuration for [GitHub Actions][gh-actions]
 - Simple example of TypeScript code and unit test
 
-🤲 Free as in speech: available under the APLv2 license.
 
 ## Getting Started
 
@@ -78,7 +75,7 @@ Support this project by becoming a [sponsor][sponsor].
 
 ## License
 
-Licensed under the APLv2. See the [LICENSE](https://github.com/brunomouranascimento/api-gateway-node-typescript-template/blob/main/LICENSE) file for details.
+Licensed under the MIT. See the [LICENSE](https://github.com/brunomouranascimento/api-gateway-node-typescript-template/blob/main/LICENSE) file for details.
 
 [ts-badge]: https://img.shields.io/badge/TypeScript-5.1-blue.svg
 [nodejs-badge]: https://img.shields.io/badge/Node.js->=%2018.12-blue.svg
